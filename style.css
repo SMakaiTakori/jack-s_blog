@@ -44,6 +44,27 @@ h3 {
     text-align: center;
 }
 
+.date {
+   position: absolute;
+   top:10px;
+   right:30px;
+}
+
+.main-text{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.dogsplaying {
+    border-radius: 30%;
+    border-style:solid ;
+    border-color:black;
+    width: 300px;
+    height: 200px;
+    margin-left: 34%;
+    margin-top: 10px; 
+}  
+
 .dogplay_video {
     position: relative;
     top: 50%;
@@ -65,6 +86,15 @@ hr {
     padding-right: 30px;
     padding-left: 30px;
     background-color: lightgray;
+    position: relative;
+}
+
+.blog-post img {
+    height:200px;
+    width: auto;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .other-posts {
@@ -88,10 +118,6 @@ hr {
     margin-left: 34%;
 }
 
-.greeting {
-    font-size: 45px;
-}
-
 .other {
     margin-bottom: 40px;
     padding-top: 20px;
@@ -105,13 +131,17 @@ hr {
     text-align: center;
 }
 
-.dogsplaying {
-    border-radius: 30%;
-    border-style:solid ;
-    border-color:black;
-    width: 300px;
+.author-box img {
+    width : 200px; 
     height: 200px;
-    margin-left: 34%;
-    margin-top: 10px;
-    
+    border-radius: 50%;
+    float: left;
 }
+
+.author-text {
+    font-size: 22px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
